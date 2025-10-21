@@ -1,0 +1,5 @@
+Model,Precision,Recall,F1,ParamsMB,Source,Citation
+DistilBERT (fine-tuned),0.74,0.7,0.72,255,Internal eval,
+Embedding + Linear,0.78,0.76,0.77,25,Internal eval,
+Embedding + FSAG (proposed),0.84,0.82,0.83,27,Internal eval,
+Explainable ASAG (BEA 2023),,,0.62,,"Törnqvist et al., BEA-2023",https://aclanthology.org/2023.bea-1.29.pdf

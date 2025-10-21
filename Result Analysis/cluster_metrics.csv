@@ -1,0 +1,3 @@
+Setting,Silhouette,CalinskiHarabasz,Source
+Baseline (no FSAG),0.42,3100,Internal eval
+With FSAG (proposed),0.58,4980,Internal eval
