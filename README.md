@@ -24,8 +24,8 @@ This repository contains a comprehensive web application for **detecting student
 - Outlier handling and normalization for numerical attributes.  
 
 ### 2. Model Architecture
-- Transformer-based feature extraction using BERT or DistilBERT.  
-- Feedforward neural networks for classification and regression tasks.  
+- Transformer-based feature extraction using BERT or DistilBERT for actual method comparison
+- Feedforward neural networks for classification and regression tasks in analysis.  
 - Fine-tuning for domain-specific educational datasets.  
 
 ### 3. Result Analysis (MATLAB)
@@ -46,9 +46,8 @@ Misconception-Detection-and-Question-Difficulty-Analysis-Web-App/
 ├── templates/                   # HTML frontend templates
 ├── models/                      # Trained ML models and scripts
 ├── Result Analysis/             
-│   ├── performance_analysis.m    # MATLAB script for performance visualization
-│   ├── metrics_evaluation.m      # Computes accuracy, F1-score, precision, recall
-│   └── confusion_matrix_plot.m   # Generates confusion matrix heatmaps
+│   ├── MATLAB.m                  # MATLAB script for performance visualization
+                                  # Generates confusion matrix heatmaps
 ├── app.py                        # Flask main application file
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # Documentation
@@ -85,7 +84,7 @@ Misconception-Detection-and-Question-Difficulty-Analysis-Web-App/
 Navigate to the `Result Analysis` folder and run the desired script:
 ```matlab
 cd('Result Analysis')
-run('performance_analysis.m')
+run('MATLAB.m')
 ```
 
 Ensure MATLAB has access to exported CSV logs or JSON outputs from the model for accurate visualization.
@@ -115,9 +114,9 @@ Ensure MATLAB has access to exported CSV logs or JSON outputs from the model for
 
 ## 👨‍💻 Contributors
 
-- **Zian Rajeshkumar Surani** – Project Lead & Developer  
-- **R V Darsan** – Research & Model Evaluation  
-- **Dr. Usha Kiruthika** – Academic Supervisor  
+- **Vaishnavi Soni** – Project Lead & Developer  
+- **Rituraj Kushwaha** – Research & Model Evaluation  
+- **Zian Rajeshkumar Surani** – Backend Developer and Research Analyst
 
 ---
 
